@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #005f73;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    background: #0a9396;
+    padding: 10px 0;
+    text-align: center;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+header .logo {
+    height: 60px;   /* Sets the logo height */
+    width: auto;    /* Maintains the aspect ratio */
+    float: left;    /* Aligns the logo to the left */
+    margin-right: 20px;  /* Adds space between the logo and the title */
+}
+
+header {
+    background: #005f73;
+    color: #ffffff;
+    padding: 20px 10px;  /* Adjusted padding for vertical alignment */
+    text-align: center;
+    clear: both;  /* Clears the float */
+}
+
+header h1 {
+    margin: 0;
+    line-height: 60px;  /* Aligns the text vertically center to logo */
+}
+
